@@ -1,0 +1,75 @@
+.imgSize {
+  
+    img {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        margin-top: 20px; 
+    }
+
+    img:hover{
+        opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+    }
+
+    @-webkit-keyframes flash {
+        0% {
+            opacity: .4;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes flash {
+        0% {
+            opacity: .4;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+
+}
+
+.bannerSection{
+    width: 100vw;
+    height: 250px;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(9, 96, 146, 0.6)
+    ),
+    url('/images/banner-sobre-nos.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        line-height: 2.5rem;
+        color: white;
+      }
+}
+
+@media(max-width:577px) {
+    .imgSize {
+  
+        img { 
+            width: 250px;
+            height: auto;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+    }
+
+    .bannerSection{
+        height: 100px;
+     }
+} 
+
+

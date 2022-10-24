@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media(max-width: 1080px){
+    html{
+        font-size: 93,75%;// vai gerar 15px;
+    }
+}
+
+@media(max-width: 720px){
+    html{
+        font-size: 87,5%;// vai gerar 14px;
+    }
+}
+
+:root {
+    --white: #fff;
+    --gray-100:#afafaf;
+    --gray-200: #525252;
+    --gray-700: #15171b;
+
+
+    --blue-900:#1fa4e5;
+    --yellow-500:#ffbe16;
+    --verde-oficial:#0e221e;
+    --verde-oficial-claro:#98b633;
+
+}
+
+body, input, textarea, select, button{
+  font: 400 1rem 'Poppins', sans-serif!important;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+.nav-link{
+    color: #fff!important;
+}
+
+.nav-link:hover{
+    color: var(--verde-oficial-claro)!important;
+}
+
+.effect-button-gray {
+    box-shadow: 1px 1px 5px 1px rgba(242, 234, 234, 0.5);
+          
+}
+
+.effect-button-neon {
+    box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+            1px 2px 4px 0px rgba(0,255,255,0.7),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 16px 0px rgba(0,255,255,0.7);
+          
+}
+
+
+.effect-button-black {
+    box-shadow: 1px 1px 5px 1px rgba(6, 6, 6, 0.5);
+          
+}
+
+

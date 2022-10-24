@@ -1,0 +1,30 @@
+
+.headerContainer{
+    background-color: var(--verde-oficial-claro);
+    color: var(--white);
+
+    a{
+        color: #fff!important;
+    }
+
+    a:hover{
+        color:#f7f7f7;
+    }
+
+}
+
+.active{
+     color:var(--verde-oficial-claro); 
+    line-height: 46px;
+}
+
+.active:hover {
+    color: #fff;
+}
+
+
+
+
+
+
+

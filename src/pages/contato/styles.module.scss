@@ -1,0 +1,28 @@
+
+.bannerSection{
+    width: 100vw;
+    height: 250px;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 12),
+      rgba(9, 96, 146, 0.6)
+    ),
+    url('/images/banner-contato.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        line-height: 2.5rem;
+        color: white;
+      }
+}
+
+@media(max-width:577px) {
+    .bannerSection{
+       height: 100px;
+    }
+}
